@@ -9,6 +9,7 @@ import SwiftUI
 
 struct ContentView: View {
     @State private var annualIncome: String = ""
+    @State private var monthlyDebt: String = ""
     
     var body: some View {
         VStack {
@@ -22,7 +23,15 @@ struct ContentView: View {
                 TextField("Enter Annual Income", text: $annualIncome)
                     .textFieldStyle(RoundedBorderTextFieldStyle())
             }
-            .padding()
+            .padding(.horizontal)
+            
+            HStack {
+                Text("Monthly Debt:")
+                
+                TextField("Enter Monthly Debt", text: $monthlyDebt)
+                    .textFieldStyle(RoundedBorderTextFieldStyle())
+            }
+            .padding(.horizontal)
             
             Spacer()
         }
