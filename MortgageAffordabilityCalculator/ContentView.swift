@@ -17,7 +17,7 @@ struct ContentView: View {
                 .font(.system(size: 25))
             
             HStack {
-                Text("Annual Income")
+                Text("Annual Income:")
                 
                 TextField("Enter Annual Income", text: $annualIncome)
                     .textFieldStyle(RoundedBorderTextFieldStyle())
