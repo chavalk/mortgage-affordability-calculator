@@ -25,6 +25,7 @@ struct ContentView: View {
                     .textFieldStyle(RoundedBorderTextFieldStyle())
             }
             .padding(.horizontal)
+            .padding(.top)
             
             HStack {
                 Text("Monthly Debt:")
@@ -33,6 +34,15 @@ struct ContentView: View {
                     .textFieldStyle(RoundedBorderTextFieldStyle())
             }
             .padding(.horizontal)
+            
+            Text("Payment you can afford")
+                .font(.system(size: 23))
+                .padding(.top, 70)
+            
+            Text("$2,584.96")
+                .font(.system(size: 40))
+                .bold()
+                .padding(.top, 1)
             
             Spacer()
         }
