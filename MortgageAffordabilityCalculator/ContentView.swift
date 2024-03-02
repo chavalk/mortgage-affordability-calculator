@@ -15,7 +15,8 @@ struct ContentView: View {
         VStack {
             Text("Mortgage Affordability Calculator")
                 .padding()
-                .font(.system(size: 25))
+                .font(.system(size: 23))
+                .bold()
             
             HStack {
                 Text("Annual Income:")
