@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BE3A5FDD2B9533BD0002F7C5 /* CalculatorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE3A5FDC2B9533BD0002F7C5 /* CalculatorViewModel.swift */; };
 		BEB7F30F2B8E8196002FE928 /* MortgageAffordabilityCalculatorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEB7F30E2B8E8196002FE928 /* MortgageAffordabilityCalculatorApp.swift */; };
 		BEB7F3112B8E8196002FE928 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEB7F3102B8E8196002FE928 /* ContentView.swift */; };
 		BEB7F3132B8E819A002FE928 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEB7F3122B8E819A002FE928 /* Assets.xcassets */; };
@@ -14,6 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BE3A5FDC2B9533BD0002F7C5 /* CalculatorViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorViewModel.swift; sourceTree = "<group>"; };
 		BEB7F30B2B8E8196002FE928 /* MortgageAffordabilityCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MortgageAffordabilityCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEB7F30E2B8E8196002FE928 /* MortgageAffordabilityCalculatorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MortgageAffordabilityCalculatorApp.swift; sourceTree = "<group>"; };
 		BEB7F3102B8E8196002FE928 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -53,6 +55,7 @@
 			children = (
 				BEB7F30E2B8E8196002FE928 /* MortgageAffordabilityCalculatorApp.swift */,
 				BEB7F3102B8E8196002FE928 /* ContentView.swift */,
+				BE3A5FDC2B9533BD0002F7C5 /* CalculatorViewModel.swift */,
 				BEB7F3122B8E819A002FE928 /* Assets.xcassets */,
 				BEB7F3142B8E819A002FE928 /* Preview Content */,
 			);
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BEB7F3112B8E8196002FE928 /* ContentView.swift in Sources */,
+				BE3A5FDD2B9533BD0002F7C5 /* CalculatorViewModel.swift in Sources */,
 				BEB7F30F2B8E8196002FE928 /* MortgageAffordabilityCalculatorApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
