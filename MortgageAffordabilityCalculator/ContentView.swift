@@ -35,9 +35,21 @@ struct ContentView: View {
             }
             .padding(.horizontal)
             
+            Button(action: {
+                
+            }, label: {
+                Text("Calculate")
+                    .padding()
+                    .background(Color.blue)
+                    .foregroundColor(.white)
+                    .cornerRadius(8)
+                    .fontWeight(.semibold)
+            })
+            .padding(.top, 30)
+            
             Text("Payment you can afford")
                 .font(.system(size: 23))
-                .padding(.top, 70)
+                .padding(.top, 30)
             
             Text("$2,584.96")
                 .font(.system(size: 40))
