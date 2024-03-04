@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct ContentView: View {
+    @ObservedObject var calculatorViewModel = CalculatorViewModel()
     @State private var annualIncome: String = ""
     @State private var monthlyDebt: String = ""
     
@@ -36,7 +37,7 @@ struct ContentView: View {
             .padding(.horizontal)
             
             Button(action: {
-                
+                calculatorViewModel.calculateAffordablePayment(annualIncome: annualIncome, monthlyDebt: monthlyDebt)
             }, label: {
                 Text("Calculate")
                     .padding()
@@ -51,7 +52,7 @@ struct ContentView: View {
                 .font(.system(size: 23))
                 .padding(.top, 30)
             
-            Text("$2,584.96")
+            Text("$\(calculatorViewModel.affordablePayment)")
                 .font(.system(size: 40))
                 .bold()
                 .padding(.top, 1)
